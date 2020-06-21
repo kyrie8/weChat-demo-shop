@@ -1,0 +1,10 @@
+<!--pages/auth/index.wxml-->
+<view class="userInfo" hover-class="none" hover-stop-propagation="false">
+  <image mode="widthFix" src="{{avatarUrl}}"/>
+  <text >{{nickName}}</text>
+</view>
+
+<button type="primary" plain="{{true}}" open-type="getUserInfo" 
+  bindgetuserinfo="handleGetUserInfo">
+  获取授权
+</button>

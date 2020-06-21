@@ -1,0 +1,19 @@
+/* pages/auth/index.wxss */
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.userInfo image{
+  border-radius: 50%;
+  width: 50%;
+}
+.userInfo text{
+  font-size: 32rpx;
+  font-weight: 600;
+}
+button{
+  width: 70%; 
+}
